@@ -11,7 +11,7 @@ Spring入门，模板语法和渲染
 Redis入门以及Redis实现赞踩功能
 异步设计和站内邮件通知系统
 多种资讯排序算法
-JavaWeb项目测试和部署，课程总结回顾
+JavaWeb项目测试和部署
 
 # quick-start
 
