@@ -11,6 +11,7 @@ import com.nowcoder.service.UserService;
 import com.nowcoder.util.MailSender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 
 import java.util.*;
 
