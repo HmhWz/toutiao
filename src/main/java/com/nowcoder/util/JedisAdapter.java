@@ -174,7 +174,7 @@ public class JedisAdapter implements InitializingBean {
         Jedis jedis = null;
         try {
             jedis = pool.getResource();
-            return getJedis().get(key);
+            return jedis.get(key);
         } catch (Exception e) {
             logger.error("发生异常" + e.getMessage());
             return null;

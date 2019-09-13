@@ -49,7 +49,7 @@ public class PassportInterceptor implements HandlerInterceptor{
                 }
                 else {
                     User user = userDAO.selectById(loginTicket.getUserId());
-                    hostHolder.setUsers(user);
+                    hostHolder.setUser(user);
                     return true;
                     //不能直接放在request里，因为是全局的一个ticket，其他服务想要读取时可能不会用到httprequest请求，
                     // 但是可以注入hostholder来获取用户信息。

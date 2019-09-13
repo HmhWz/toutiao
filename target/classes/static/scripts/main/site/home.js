@@ -21,17 +21,19 @@
             fClickLogin();
         }
     }
+
     function fClickShare() {
         var that = this;
-            PopupUpload.show({
-                listeners: {
-                    done: function () {
-                        //alert('login');
-                        window.location.reload();
-                    }
+        PopupUpload.show({
+            listeners: {
+                done: function () {
+                    //alert('login');
+                    window.location.reload();
                 }
-            });
+            }
+        });
     }
+
     function fClickLogin() {
         var that = this;
         PopupLogin.show({

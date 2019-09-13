@@ -143,6 +143,7 @@
                 Component._domQueue.splice(i, 1);
             }
         }
+
         function _fBind(sName, oEvent) {
             var aMatch = sName.match(/^(\S+)\s*(.*)$/);
             var sEvent = $.trim(aMatch[1]);

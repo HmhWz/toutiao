@@ -1,6 +1,5 @@
 package com.nowcoder;
 
-import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -9,10 +8,8 @@ import org.springframework.context.annotation.ImportResource;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.validation.constraints.Min;
 
 @SpringBootApplication
-@ImportResource
 public class ToutiaoApplication extends SpringBootServletInitializer{
 
 	@Override
@@ -22,5 +19,6 @@ public class ToutiaoApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(ToutiaoApplication.class, args);
+
 	}
 }
